@@ -9,7 +9,7 @@ export class AppService {
   }
 
   getHello(): string {
-    this.logger.log('getHello is triggered!');
+    this.logger.warn('getHello is triggered!');
     return 'Hello World!';
   }
 }
